@@ -21,7 +21,7 @@ services:
       - backend
     command: [nginx-debug, '-g', 'daemon off;']
     ports:
-      - '3000:80'
+      - '80:80'
     environment:
       - NODE_ENV=development
 
