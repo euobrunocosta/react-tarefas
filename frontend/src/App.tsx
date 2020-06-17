@@ -23,7 +23,8 @@ const App = () => {
     feito: boolean;
   };
 
-  const api = 'http://tarefas-backend:4000/';
+  const api =
+    window.location.protocol + '//' + window.location.hostname + ':4000/';
 
   const [lista, setLista] = useState<TLista[]>([]);
   const [showConfirmItem, setShowConfirmItem] = useState<boolean>(false);
