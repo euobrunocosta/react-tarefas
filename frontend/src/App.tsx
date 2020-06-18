@@ -112,16 +112,12 @@ const App = () => {
     <>
       <Menu color="blue" inverted>
         <ContainerSUI>
-          <Menu.Item header>Lista de Tarefas</Menu.Item>
+          <Menu.Item header>
+            <Icon name="check square outline" /> Lista de Tarefas
+          </Menu.Item>
           <Menu.Menu position="right">
             <Menu.Item>
-              <Dropdown
-                trigger={
-                  <>
-                    <Icon name="check square outline" /> Marcar todos...
-                  </>
-                }
-              >
+              <Dropdown trigger={<>Marcar todos...</>}>
                 <Dropdown.Menu>
                   <Dropdown.Item
                     icon="check square outline"
