@@ -113,7 +113,7 @@ const App = () => {
       <Menu color="blue" inverted>
         <ContainerSUI>
           <Menu.Item header>
-            <Icon name="check square outline" /> Lista de Tarefas
+            <Icon name="check circle outline" /> Lista de Tarefas
           </Menu.Item>
           <Menu.Menu position="right">
             <Menu.Item>
